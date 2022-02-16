@@ -1,0 +1,42 @@
+.product-container {
+  width: 500px;
+  /* padding: 20px; */
+  margin: 15px;
+}
+
+.products img {
+  width: 200px;
+}
+.products {
+  display: flex;
+  justify-content: center;
+}
+
+.products a {
+  color: black;
+  text-decoration: none;
+}
+
+.product-price {
+  color: red;
+}
+.product-discount {
+  text-decoration: line-through;
+  color: #807c66;
+}
+
+.delivery-duration {
+  color: #807c66;
+  margin-bottom: 100px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0d4689;
+}
+.product-description {
+  margin: 30px;
+}
+.product-container:hover {
+  border: 1px solid rgba(207, 189, 189, 0.466);
+}

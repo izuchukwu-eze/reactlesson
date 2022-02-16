@@ -1,0 +1,36 @@
+.my-products img {
+  width: 400px;
+  margin-left: 50px;
+}
+
+.my-products a {
+  color: black;
+  text-decoration: none;
+}
+.product-deduction {
+  text-decoration: line-through;
+  background-color: #807c66;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+h2 {
+  color: red;
+  margin-left: 30px;
+}
+
+footer {
+  color: #807c66;
+  display: inline-block;
+  margin-bottom: 100px;
+  margin-left: 30px;
+}
+a:hover {
+  text-decoration: underline;
+  color: #0d4689;
+}
+.my-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
